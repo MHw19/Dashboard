@@ -21,7 +21,7 @@ export class DashboardService {
      },
      {
       name:'Africa',
-      data:[524,410,754,554,457,754,684]
+      data:[524,410,730,460,457,754,684]
      },
      {
       name:'Ocenia',
