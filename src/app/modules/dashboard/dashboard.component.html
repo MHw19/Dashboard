@@ -1,0 +1,40 @@
+<div>
+  <app-widgetarea [data]="areaChart"></app-widgetarea>
+
+</div>
+<br>
+<mat-divider>
+  <br>
+</mat-divider>
+
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px" class="stats cards">
+ <mat-card fxFlex="25">
+  <app-widgetcard lable="Internet" total="15k" percentage="45" [data]="cardData"></app-widgetcard>
+
+
+ </mat-card>
+ <mat-card fxFlex="25">
+  <app-widgetcard lable="GSM" total="8k" percentage="28" [data]="cardData"></app-widgetcard>
+
+</mat-card>
+<mat-card fxFlex="25">
+  <app-widgetcard lable="WIFI" total="5k" percentage="56" [data]="cardData"></app-widgetcard>
+
+</mat-card>
+<mat-card fxFlex="25">
+  <app-widgetcard lable="Mobile" total="18k" percentage="78" [data]="cardData"></app-widgetcard>
+
+</mat-card>
+
+</div>
+<mat-divider></mat-divider>
+<br>
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="10x" >
+    <div fxFlex="50" >Table</div>
+    <div fxFlex="50">
+    <app-widgetpie [data]="pieChartData"></app-widgetpie>
+
+    </div>
+    
+    
+    </div>
